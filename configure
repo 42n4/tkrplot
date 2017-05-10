@@ -332,6 +332,7 @@ localstatedir='${prefix}/var'
 libdir='${exec_prefix}/lib'
 includedir='${prefix}/include'
 oldincludedir='/usr/include'
+tkincludedir='/usr/include/tk'
 infodir='${prefix}/info'
 mandir='${prefix}/man'
 
@@ -653,7 +654,7 @@ done
 
 # Be sure to have absolute paths.
 for ac_var in bindir sbindir libexecdir datadir sysconfdir sharedstatedir \
-              localstatedir libdir includedir oldincludedir infodir mandir
+              localstatedir libdir includedir oldincludedir tkincludedir infodir mandir
 do
   eval ac_val=$`echo $ac_var`
   case $ac_val in
